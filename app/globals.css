@@ -12,12 +12,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode disabled for portal to maintain brutalist aesthetic consistency */
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
+*/
 
 body {
   background: var(--background);
